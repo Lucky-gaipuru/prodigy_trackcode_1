@@ -1,0 +1,134 @@
+/* General styles */
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #040000;
+    color:#7e0707
+}
+
+/* Header styles */
+header {
+    background-color: #0b0000;
+    color: rgb(111, 13, 13);
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Navigation styles */
+#navbar {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#navbar a {
+    color: rgb(119, 16, 16);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #89dd0c;
+    border-bottom: 2px solid  #a10707c0;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #06f5bd;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* Gallery styles */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.gallery-grid img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #040000;
+    border-radius: 5px;
+}
+
+/* Contact form styles */
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #5a0f0f;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #040000;
+    color: rgb(110, 13, 13);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #040000;
+}
+
+/* Footer styles */
+footer {
+    background-color: #040000;
+    color: rgb(110, 19, 19);
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    width: 100%;
+    height:5%;
+    bottom: 0;
+}
